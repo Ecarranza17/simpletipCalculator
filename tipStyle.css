@@ -1,0 +1,85 @@
+/* Centering entire webapp and font */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/* CSS just for the nav bar */
+.nav {
+  display: flex;
+
+  list-style-type: none;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: auto;
+  color: white;
+  background-color: black;
+}
+
+ .refreshBtn {
+margin-left: auto;
+padding-right: 2.5rem;
+border: 3rem;
+background-color: black;
+color: white;
+outline: none;
+}
+
+/* Centering the div element that contains input, output and button */
+.appContainer {
+
+  margin-top: 10rem;
+  margin-left: 7rem;
+}
+
+/* CSS for the input and output areas */
+.addAmount, .percentTip  {
+  border: .1rem solid #00BCD4;
+  background-color: #fff;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.3rem;
+  padding: 1rem 1rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+
+}
+
+.dollarTip  {
+  border: .1rem solid #00BCD4;
+  background-color: #fff;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.3rem;
+  padding: 1rem 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: .3rem;
+
+}
+
+
+/* CSS for check button */
+.add__btn {
+  outline-color: #00BCD4;
+  background: none;
+  border-color: #fff;
+  border-radius: .3rem;
+}
+
+
+/* CSS for footer contents and its icon */
+.copyright {
+
+
+  margin-top: 17rem;
+  padding-bottom: 1.4rem;
+  background-color: #263238;
+  color: white;
+  font-size: 1rem;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>simpleTipCalculator</title>
+    <link rel ="stylesheet" href="tipStyle.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+          <div class="appname">simpleTipCalculator</div>
+          <button class="refreshBtn" onclick="refresh()"><i class="material-icons">refresh</i></button>
+      </div>
+    </header>
+
+
+    <main>
+      <div class="appContainer">
+        <input type="number" class="addAmount" placeholder="$Bill Amount">
+        <input type="number" class="percentTip" placeholder="% Tip">
+        <button class="add__btn"><focus><i class="material-icons">check_circle</i></focus></button>
+        <output class="dollarTip"></output>
+
+      </div>
+    </main>
+
+    <footer><div class="copyright"><p></p>Created by: Ernesto Carranza, 2018</p></div></footer>
+
+
+  <script src='tipScript.js'></script>
+  </body>
+</html>
